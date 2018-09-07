@@ -8,4 +8,5 @@ add_action('wp_enqueue_scripts', function (){
     wp_register_script( 'jquery-migrate', get_theme_file_uri('/assets/js/libs/jquery-migrate-3.0.0.min.js'), array(), '3.0.0' );
     wp_enqueue_script( 'bootstrap_js', get_theme_file_uri( '/assets/js/libs/bootstrap.min.js' ), array( ), '', true );
     wp_enqueue_script( 'functions', get_theme_file_uri( '/assets/js/functions.js' ), array( ), '', true );
+
 });
